@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+        <h2>GENERATE QR CODE</h2>
+        <form>
+            <input type="text" placeholder="Type your text or URL">
+            <span>
+                <label for="">Select size :</label>
+                <select  id="select">
+                    <option value="100x100">100*100</option>
+                    <option value="200x200">200*200</option>
+                    <option value="300x300">300*300</option>
+                    <option value="400x400">400*400</option>
+                    <option value="500x500">500*500</option>
+                    <option value="600x600">600*600</option>
+                    <option value="700x700">700*700</option>
+                    <option value="800x800">800*800</option>
+                    <option value="900x900">900*900</option>
+                    <option value="1000x1000">1000*1000</option>
+                     
+                </select>
+            </span>
+             <div id="img">
+                <img src="download.png" alt="">
+             </div>
+             <span>
+                <button type="submit">Generate</button>
+                <button id="download">Download</button></span>
+             </span>
+        </form>
+     </div>  
+     <style src="main.js"></style>  
+</body>
+</html>
